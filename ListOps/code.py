@@ -10,13 +10,10 @@ Example: given list -> [1,2,3,4,5]
 '''
 
 nums = [3, 5, 2, 9, 101, 333, 4]
-
-def remove_odd_element(input_list):
-    i=0
-    for element in input_list:
-        if i % 2 == 0:
-            pass
-        else:
-            input_list.remove(element)
-        i = i + 1
+nums_1=[]
+while(len(nums) !=0):
+ for i in range(0,len(nums)):
+      if(i%2==0):
+            nums_1.append(i)
+      print(nums_1)
 
